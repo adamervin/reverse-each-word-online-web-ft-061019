@@ -1,7 +1,5 @@
-def reverse_each_word(sentence)
-my = sentence.split
-each.my do |word| 
-  reverse_inplace
-  puts my.split
-end
+ def reverse_each_word(arg)
+  my_arr = arg.split
+  result = my_arr.collect { |n| n.reverse }
+  result.join (" ")
 end
